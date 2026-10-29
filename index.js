@@ -11,6 +11,11 @@ app.use(express.json());
 
 const client = new Client({
     authStrategy: new LocalAuth(),
+    pairWithPhoneNumber: {
+        phoneNumber: '380958541859',   // номер БЕЗ плюса, пробілів і дужок
+        showNotification: true,
+        intervalMs: 180000
+    },
     puppeteer: {
         headless: true,
         args: [
@@ -22,6 +27,10 @@ const client = new Client({
             '--disable-gpu'
         ]
     }
+});
+
+client.on('code', (code) => {
+    console.log('PAIRING CODE:', code);
 });
 
 client.on('qr', (qr) => {
