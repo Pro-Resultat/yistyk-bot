@@ -1,0 +1,6 @@
+*
+!/.gitignore
+!/Dockerfile
+!/package.json
+!/package-lock.json
+!/index.js
