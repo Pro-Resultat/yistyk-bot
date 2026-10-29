@@ -1,0 +1,32 @@
+2026/10/29-16:25:57.570 a56ec Creating DB /Users/_vikkii_vol/Desktop/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2026/10/29-16:25:57.573 a56ec Reusing MANIFEST /Users/_vikkii_vol/Desktop/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/29-16:27:09.670 a56ec Level-0 table #5: started
+2026/10/29-16:27:09.694 a56ec Level-0 table #5: 1019970 bytes OK
+2026/10/29-16:27:09.697 a56ec Delete type=0 #3
+2026/10/29-16:27:11.395 a56f0 Level-0 table #7: started
+2026/10/29-16:27:11.411 a56f0 Level-0 table #7: 1020068 bytes OK
+2026/10/29-16:27:11.415 a56f0 Delete type=0 #4
+2026/10/29-16:27:11.690 a56ec Compacting 1@1 + 1@2 files
+2026/10/29-16:27:11.717 a56ec Generated table #8@1: 22472 keys, 872243 bytes
+2026/10/29-16:27:11.717 a56ec Compacted 1@1 + 1@2 files => 872243 bytes
+2026/10/29-16:27:11.719 a56ec compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/10/29-16:27:11.719 a56ec Delete type=2 #7
+2026/10/29-16:27:11.719 a56ec Delete type=2 #5
+2026/10/29-16:27:51.308 a56ec Level-0 table #10: started
+2026/10/29-16:27:51.328 a56ec Level-0 table #10: 1203654 bytes OK
+2026/10/29-16:27:51.332 a56ec Delete type=0 #6
+2026/10/29-16:27:51.350 a56eb Compacting 1@1 + 1@2 files
+2026/10/29-16:27:51.390 a56eb Generated table #11@1: 29801 keys, 1441631 bytes
+2026/10/29-16:27:51.390 a56eb Compacted 1@1 + 1@2 files => 1441631 bytes
+2026/10/29-16:27:51.392 a56eb compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/10/29-16:27:51.393 a56eb Delete type=2 #10
+2026/10/29-16:27:51.393 a56eb Delete type=2 #8
+2026/10/29-16:32:19.845 a56f0 Level-0 table #13: started
+2026/10/29-16:32:19.866 a56f0 Level-0 table #13: 1088136 bytes OK
+2026/10/29-16:32:19.871 a56f0 Delete type=0 #9
+2026/10/29-16:32:20.874 a56eb Compacting 1@1 + 1@2 files
+2026/10/29-16:32:20.986 a56eb Generated table #14@1: 45009 keys, 1850314 bytes
+2026/10/29-16:32:20.986 a56eb Compacted 1@1 + 1@2 files => 1850314 bytes
+2026/10/29-16:32:20.993 a56eb compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/10/29-16:32:20.993 a56eb Delete type=2 #13
+2026/10/29-16:32:20.993 a56eb Delete type=2 #11
