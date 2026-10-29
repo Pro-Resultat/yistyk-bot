@@ -116,4 +116,14 @@ client.on('message_create', async (msg) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));
 
-client.initialize();
+process.on('unhandledRejection', (err) => {
+    console.error('UNHANDLED:', err && err.message ? err.message : err);
+});
+
+client.on('disconnected', (reason) => {
+    console.log('DISCONNECTED:', reason);
+});
+
+client.initialize().catch((err) => {
+    console.error('INIT ERROR:', err.message);
+});
