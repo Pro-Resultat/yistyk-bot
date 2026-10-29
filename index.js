@@ -3,7 +3,7 @@ const qrcode = require('qrcode-terminal');
 const express = require('express');
 const axios = require('axios');
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzzOAuRN2CeZTnHE-3dp8lB8_vdmY4mZqS4gYqYrD26LKlV_dyfiZXZJt9ERG9J3qNa/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz-DQlqj1OsjXWQNy6a2VMtNJ_4BQDJSfVOcfC1iN3nLeB3cNCQI_e9kQGqKcAhc-bn/exec";
 const WHATSAPP_GROUP_NAME = "Робоча Група Їстик"; 
 
 const app = express();
